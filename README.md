@@ -1,18 +1,17 @@
 # whoareyou
 
-whoareyou, display whoami github repository README.md
+whoareyou: displays whoami github repository README.md
 
 ## Install
 
-    npm i @maboiteaspam/whoareyou --save-dev
+    npm i @maboiteaspam/whoareyou -g
 
 ## Usage
 
-```js
-var module = require('whoareyou');          // your code here,
-                                            // your doc here.
+```bash
+whoareyou maboiteaspam
 ```
 
 ## More
 
-Additional links and comments.
+- https://github.com/maboiteaspam/whoami
