@@ -1,6 +1,6 @@
 {
   "name": "@maboiteaspam/whoareyou",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "whoareyou: display whoami github repository README.md",
   "main": "index.js",
   "scripts": {
@@ -20,15 +20,15 @@
   "author": "maboiteaspam",
   "license": "WTF",
   "dependencies": {
-    "@maboiteaspam/set-verbosity": "^2.0.2",
-    "@maboiteaspam/show-help": "^2.0.1",
-    "marked": "^0.3.5",
-    "marked-terminal": "^1.6.1",
-    "minimist": "^1.2.0"
+    "@maboiteaspam/set-verbosity": ">=2.0.2 <3.0.0-0",
+    "@maboiteaspam/show-help": ">=2.0.1 <3.0.0-0",
+    "marked": ">=0.3.5 <1.0.0-0",
+    "marked-terminal": ">=1.6.1 <2.0.0-0",
+    "minimist": ">=1.2.0 <2.0.0-0"
   },
   "devDependencies": {
-    "marked": "^0.3.5",
-    "marked-terminal": "^1.6.1"
+    "marked": ">=0.3.5 <1.0.0-0",
+    "marked-terminal": ">=1.6.1 <2.0.0-0"
   },
   "bin": {
     "whoareyou": "./bin.js"
