@@ -27,5 +27,7 @@
         "marked": "^0.3.5",
         "marked-terminal": "^1.6.1"
     },
-    "bin": {}
+    "bin": {
+        "whoareyou": "./bin.js"
+    }
 }
