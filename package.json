@@ -1,0 +1,31 @@
+{
+    "name": "@maboiteaspam/whoareyou",
+    "version": "1.0.0",
+    "description": "whoareyou, display whoami github repository README.md",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dcheck": "npm outdated --depth=0",
+        "patch": "npm version patch -m \"patch %s\"",
+        "minor": "npm version minor -m \"minor %s\"",
+        "major": "npm version major -m \"major %s\"",
+        "preversion": "echo \"npm test: not defined\" && npi --explicit",
+        "version": "echo \"npm run build: not defined\"",
+        "postversion": "git push && git push --tags",
+        "public": "npm publish --access=public"
+    },
+    "keywords": [
+        "whoareyou"
+    ],
+    "author": "maboiteaspam",
+    "license": "WTF",
+    "dependencies": {
+        "marked": "^0.3.5",
+        "marked-terminal": "^1.6.1"
+    },
+    "devDependencies": {
+        "marked": "^0.3.5",
+        "marked-terminal": "^1.6.1"
+    },
+    "bin": {}
+}
